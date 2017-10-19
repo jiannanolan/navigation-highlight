@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Sigmar One", san-serif;
+  color: #b20953;
+  font-size: 3rem;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #b2a212;
+  border-radius: 4px;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .2em;
+  padding-right: .2em;
+  font-size: 1.225rem;
+  margin-bottom: .3em;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  background-color: #cc1465;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
+
+h2 {
+  font-size: 1.875rem;
+  color: #b20953;
+  font-family: "Sigmar One", san-serif;
+  padding-top: .2em;
+  margin: .6em;
+}
+
+body {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: .3em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+figure {
+  margin: 0;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-bottom: .75em;
+  padding-top: .4em;
+}
+
+footer {
+  background-color: #ffe500;
+  color: #2f2d13;
+  padding: .07rem;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  padding: .5em;
+  margin: 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
